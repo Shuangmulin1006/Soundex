@@ -11,7 +11,7 @@ public:
 private:
     std::string head(const std::string &word) const;
     std::string encodedDigits(const std::string &word) const;
-    std::string encodedDigit() const;
+    std::string encodedDigit(char letter) const;
     std::string zeroPad(const std::string &word) const;
 };
 
